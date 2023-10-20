@@ -5,7 +5,6 @@ import path from 'path';
 
 const States = () => {
   const allimages = fs.readdirSync(path.resolve(`public/states/`));
-  console.log(allimages)
   return (
     <div className='w-[60rem] mx-auto '>
       <h1 className='text-3xl  my-[3rem] text-sky-800 font-bold'>Teletherapy Available In The Following States:</h1>

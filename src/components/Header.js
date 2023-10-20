@@ -3,8 +3,8 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>
-            <div style={{ display: 'flex', marginTop: "0.6rem", alignItems: 'center', borderBottom: "1px solid gray", paddingBottom: "8px", justifyContent: 'space-evenly', margin: '0 auto' }}>
+        <div className='bg-white'>
+            <div style={{ display: 'flex', paddingTop: "1rem", alignItems: 'center', borderBottom: "1px solid gray", paddingBottom: "8px", justifyContent: 'space-evenly', margin: '0 auto' }}>
                 <div style={{ display: "flex", height: "2rem", alignItems: 'center' }}>
                     <div style={{ display: "flex", backgroundColor: "lightcyan", padding: "8px 16px", gap: '8px', alignItems: 'center', fontSize: '12px', justifyContent: 'center', borderRadius: '8px' }}>
                         <img style={{ width: '12px' }} src='/Contact-us/phone.svg' alt='phone' />
@@ -17,7 +17,7 @@ const Header = () => {
                         <img width={25}  src='/Contact-us/twitter.svg' alt='twitter' />
                     </div>
                 </div>
-                <div style={{ display: 'flex', fontWeight: "500", alignItems: "center", height: "2rem" }} >
+                <div style={{ display: 'flex', fontWeight: "500", alignItems: "center", height: "2rem" }} className='text-sky-800' >
                     <div>For Therapists</div>
                     <div style={{ borderLeft: '2px solid gray', paddingLeft: "1rem", marginLeft: "1rem" }}>For Businesses</div>
                 </div>
